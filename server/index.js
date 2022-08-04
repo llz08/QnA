@@ -80,6 +80,11 @@ app.put(`/qa/answers/:answer_id/report`, (req, res) => {
   .catch(err=>console.log(err))
 });
 
+//loader.io
+app.get(`/loaderio-109fa06a88f79ba98ba6b9ca4b72f3fe`, (req, res) => {
+  res.sendFile(__dirname + '/loaderio-109fa06a88f79ba98ba6b9ca4b72f3fe.txt')
+})
+
 app.listen(process.env.PORT, () => {
   console.log(`Server listening at ${process.env.PORT}`);
 });

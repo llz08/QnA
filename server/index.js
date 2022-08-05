@@ -81,8 +81,8 @@ app.put(`/qa/answers/:answer_id/report`, (req, res) => {
 });
 
 //loader.io
-app.get(`/loaderio-109fa06a88f79ba98ba6b9ca4b72f3fe`, (req, res) => {
-  res.sendFile(__dirname + '/loaderio-109fa06a88f79ba98ba6b9ca4b72f3fe.txt')
+app.get(`/loaderio-d5ac7f84e0c75004056f28a345116cfa`, (req, res) => {
+  res.sendFile(__dirname + '/loaderio-d5ac7f84e0c75004056f28a345116cfa.txt')
 })
 
 app.listen(process.env.PORT, () => {
